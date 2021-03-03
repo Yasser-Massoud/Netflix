@@ -23,6 +23,8 @@ import movieTrailer from "movie-trailer"
 
             return requests;
         }
+
+        
         fetchData();
      }, [fetchUrl]);
      const opt = {
